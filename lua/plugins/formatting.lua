@@ -3,11 +3,11 @@ return {
   opts = {
     formatters = {
       black = {
-        prepend_args = { "--fast" },
+        -- prepend_args = { "--line-length", "150" },
       },
     },
     formatters_by_ft = {
-      ["python"] = { "ruff", "black" },
+      ["python"] = { "black" },
     },
   },
 }
